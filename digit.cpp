@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    n = 137;
+    int n = 137;
     while(n!=0){
         int digit = n%10;
         cout << "digit: " << digit << endl;
@@ -12,3 +12,10 @@ int main(){
     
     return 0;
 }
+
+/*
+digit: 7
+digit: 3
+digit: 1
+Done
+*/
