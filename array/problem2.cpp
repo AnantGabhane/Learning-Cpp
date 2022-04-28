@@ -20,3 +20,9 @@ int main(){
    reverseArray(arrInput, n);
    return 0;
 }
+
+/*
+Array :: 11 12 13 14 15
+Reversed :: 15 14 13 12 11
+
+*/

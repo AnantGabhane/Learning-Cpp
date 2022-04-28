@@ -14,3 +14,9 @@ int main() {
       printf("%d isn't present in the array.\n", search);
    return 0;
 }
+
+/*
+165 is present at Index 4.
+
+q1. linear search in array 
+*/
