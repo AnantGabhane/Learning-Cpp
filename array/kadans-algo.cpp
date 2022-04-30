@@ -3,14 +3,14 @@ using namespace std;
 
 int getMaxsubarray(int arr[], int n){
     int ans = INT_MIN;
-    int maxEH = 0;
+    int sum = 0;
 
     for(int i=0; i<n; i++){
-        maxEH = ans + arr[i];
-        ans = max(ans, maxEH);
+        sum = ans + arr[i];
+        ans = max(ans, sum);
 
-        if(maxEH < 0)
-            maxEH = 0;
+        if(sum < 0)
+            sum = 0;
     }
     return ans;
 }
